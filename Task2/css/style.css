@@ -1,0 +1,200 @@
+body{
+    letter-spacing: 0.3px;
+    font-family: 'Poppins', sans-serif;
+}
+#icons{}
+#icons .container .row .col-6 .head{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+
+#icons .container .row .col-6 .head h1{
+        padding: 20px;
+        font-size: 40px;
+}
+#icons .container .row .col-6 .head p{
+    color: #888888;
+}
+#icons .container .row .col-4 .cards{
+    text-align: center;
+    padding: 10px;
+    line-height: 1.5;
+}
+#icons .container .row .col-4 .cards .icon{
+    padding: 50px 0px 20px 0px;
+}
+#icons .container .row .col-4 .cards:hover i{
+   color: white;
+}
+#icons .container .row .col-4 .cards i{
+    position: relative;
+    font-size: 30px;
+    color: red;
+    
+}
+
+#icons .container .row .col-4 .cards .fa-hotel::before{
+    position: absolute;
+    content: "";
+    border: 0px solid red;
+    border-radius: 50%;
+    width: 0px;
+    height: 0px;
+    padding: 25px;
+    top: -64px;
+    opacity: 0;
+    left: -45px;
+    transition: 0.4s transform linear;
+    transform: scale(0,0);
+}
+#icons .container .row .col-4 .cards .fa-hotel::after{
+    position: absolute;
+    content: "\f594";
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 40px;
+    height: 29px;
+    padding: 25px;
+    top: -70px;
+    left: -50px;
+}
+#icons .container .row .col-4 .cards .fa-ticket-alt::before{
+    position: absolute;
+    content: "";
+    border: 0px solid red;
+    border-radius: 50%;
+    width: 0px;
+    height: 0px;
+    padding: 25px;
+    top: -64px;
+    opacity: 0;
+    left: -45px;
+    transition: 0.4s transform linear;
+    transform: scale(0,0);
+}
+#icons .container .row .col-4 .cards .fa-ticket-alt::after{
+    position: absolute;
+    content: "\f3ff";
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 40px;
+    height: 29px;
+    padding: 25px;
+    top: -70px;
+    left: -50px;
+}
+#icons .container .row .col-4 .cards .fa-plane::before{
+    position: absolute;
+    content: "";
+    border: 0px solid red;
+    border-radius: 50%;
+    width: 0px;
+    height: 0px;
+    padding: 25px;
+    top: -64px;
+    opacity: 0;
+    left: -45px;
+    transition: 0.4s transform linear;
+    transform: scale(0,0);
+}
+#icons .container .row .col-4 .cards .fa-plane::after{
+    position: absolute;
+    content: "\f072";
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 40px;
+    height: 29px;
+    padding: 25px;
+    top: -70px;
+    left: -50px;
+}
+#icons .container .row .col-4 .cards .fa-subway::before{
+    position: absolute;
+    content: "";
+    border: 0px solid red;
+    border-radius: 50%;
+    width: 0px;
+    height: 0px;
+    padding: 25px;
+    top: -64px;
+    opacity: 0;
+    left: -45px;
+    transition: 0.4s transform linear;
+    transform: scale(0,0);
+}
+#icons .container .row .col-4 .cards .fa-subway::after{
+    position: absolute;
+    content: "\f239";
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 40px;
+    height: 29px;
+    padding: 25px;
+    top: -70px;
+    left: -50px;
+}
+#icons .container .row .col-4 .cards .fa-user-tie::before{
+    position: absolute;
+    content: "";
+    border: 0px solid red;
+    border-radius: 50%;
+    width: 0px;
+    height: 0px;
+    padding: 25px;
+    top: -64px;
+    opacity: 0;
+    left: -45px;
+    transition: 0.4s transform linear;
+    transform: scale(0,0);
+}
+#icons .container .row .col-4 .cards .fa-user-tie::after{
+    position: absolute;
+    content: "\f508";
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 40px;
+    height: 29px;
+    padding: 25px;
+    top: -70px;
+    left: -50px;
+}
+#icons .container .row .col-4 .cards .fa-ship::before{
+    position: absolute;
+    content: "";
+    border: 0px solid red;
+    border-radius: 50%;
+    width: 0px;
+    height: 0px;
+    padding: 25px;
+    top: -64px;
+    opacity: 0;
+    left: -45px;
+    transition: 0.4s transform linear;
+    transform: scale(0,0);
+}
+#icons .container .row .col-4 .cards .fa-ship::after{
+    position: absolute;
+    content: "\f21a";
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 40px;
+    height: 29px;
+    padding: 25px;
+    top: -70px;
+    left: -50px;
+}
+
+#icons .container .row .col-4 .cards:hover i::before{
+   background-color: red;
+   opacity: 1;
+   transition: 0.4s transform linear;
+   width: 30px;
+   height: 18px;
+   transform: scale(1,1);
+}
+#icons .container .row .col-4 .cards h1{}
+#icons .container .row .col-4 .cards p{
+    color: #888888;
+}

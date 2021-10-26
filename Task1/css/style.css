@@ -1,0 +1,99 @@
+body{
+    background-color: #f2f8fb;
+}
+#Tour{
+    
+}
+#Tour .container .row .col-4 .cards{
+    width: 90%;
+    border: 0px solid;
+    border-radius: 10px;
+    box-shadow: 0px 1px 6px 2px white;
+    background-color: white;
+    margin: 10px;
+}
+#Tour .container .row .col-4 .cards .photo{
+    position: relative;
+}
+#Tour .container .row .col-4 .cards .photo:hover::before{
+    position: absolute;
+    content: "";
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 99%;
+    
+}
+
+#Tour .container .row .col-4 .cards .photo img{
+    width: 100%;
+}
+#Tour .container .row .col-4 .cards .photo .emptydiv{
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.3s all linear;
+
+}
+#Tour .container .row .col-4 .cards .photo .emptydiv a{
+    color: white;
+    border: 0px solid;
+    border-radius: 10px;
+    background-color: #FD5A38;
+    padding: 10px 15px;
+    
+
+}
+#Tour .container .row .col-4 .cards .photo:hover .emptydiv{
+    height: 99%;
+    opacity: 1;
+    transition: 0.3s all linear;
+}
+
+#Tour .container .row .col-4 .cards .text{
+    padding: 10px;
+    line-height: 1.2;
+}
+#Tour .container .row .col-4 .cards .text h1{
+    line-height: 2;
+}
+#Tour .container .row .col-4 .cards .text h1:hover{
+    color: #FF7A58
+}
+#Tour .container .row .col-4 .cards .text p{
+    
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    color: #888888;
+    font-size: 18px;
+}
+#Tour .container .row .col-4 .cards{}
+#Tour .container .row .col-4 .cards .foot{
+    padding:10px;
+}
+#Tour .container .row .col-4 .cards .foot .row .col-6{}
+#Tour .container .row .col-4 .cards .foot .row .col-6 .price{
+    line-height: 1.3;
+}
+#Tour .container .row .col-4 .cards .foot .row .col-6 .price h1{
+    color: #FF7A58
+}
+#Tour .container .row .col-4 .cards .foot .row .col-6 .price p{
+    color: #888888;
+}
+#Tour .container .row .col-4 .cards .foot .row .col-6 .raiting{
+    line-height: 1.6;
+    margin-left: 48px;
+}
+#Tour .container .row .col-4 .cards .foot .row .col-6 .raiting i{
+   color: yellow;
+}
+#Tour .container .row .col-4 .cards .foot .row .col-6 .raiting p{
+    color: #888888;
+}
